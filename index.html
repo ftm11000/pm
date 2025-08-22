@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Alerta de Tentativa de Acesso</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #ff007a, #ff6f00);
+      color: white;
+      text-align: center;
+      padding: 30px;
+    }
+
+    .box {
+      background: rgba(0, 0, 0, 0.15);
+      border-radius: 15px;
+      padding: 25px;
+      max-width: 500px;
+      margin: 0 auto;
+    }
+
+    .alert {
+      background: #ff0000;
+      padding: 12px;
+      border-radius: 10px;
+      margin-bottom: 20px;
+      font-weight: bold;
+      font-size: 16px;
+      color: white;
+      animation: pisca 1s infinite;
+    }
+
+    @keyframes pisca {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.4; }
+    }
+
+    h1 {
+      font-size: 26px;
+      margin-bottom: 15px;
+    }
+
+    h2 {
+      color: yellow;
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 1.5;
+      margin-bottom: 15px;
+    }
+
+    .button {
+      background: #fff;
+      color: #ff007a;
+      padding: 15px 25px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+      display: inline-block;
+      margin-top: 20px;
+      transition: 0.3s;
+    }
+
+    .button:hover {
+      background: #ffe6e6;
+    }
+
+    .footer {
+      margin-top: 30px;
+      font-size: 13px;
+      opacity: 0.6;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="box">
+    <div class="alert">⚠️ DETECÇÃO DE TENTATIVA DE ACESSO NÃO AUTORIZADO ⚠️</div>
+
+    <h1>NOTIFICAÇÃO PROGRAMADA</h1>
+    <h2>A pessoa que você tentou consultar será avisada!</h2>
+
+    <p>
+      O número que você inseriu está protegido por um sistema de segurança.
+    </p>
+
+    <p>
+      De acordo com as diretrizes de privacidade digital, uma <strong>notificação automática</strong> será enviada ao titular do número, informando sobre a tentativa de acesso.
+    </p>
+
+    <p>
+      Para <strong>cancelar essa notificação imediatamente</strong> e garantir total anonimato, é necessário pagar a <strong>Taxa de Confidencialidade</strong> no valor de <strong>R$ 47,00</strong>.
+    </p>
+
+    <a href="LINK_DO_PIX_AQUI" class="button">PAGAR TAXA DE CONFIDENCIALIDADE - R$ 47,00</a>
+
+    <div class="footer">
+      Tempo estimado para envio da notificação: <strong>5 minutos</strong><br>
+      Garanta seu sigilo enquanto ainda dá tempo!
+    </div>
+  </div>
+
+</body>
+</html>
+
